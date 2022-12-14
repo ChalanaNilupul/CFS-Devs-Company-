@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CFS Devs | The Solution Builder</title>
+        <link rel="icon" type="image/x-icon" href="https://bycfs.com/Images/logoIcon.ico">
+
+        <meta name="title" content="CFS Devs | Web and Software Developing Company">
+        <meta name="description" content="CFS helps you to find the best solutin for your problems. specialised in web developing,app developing,software developing,UI/UX designing 2d animations and logo designing">
+        <meta name="keywords" content="HTML, CSS, JavaScript,cfs devs,software,mobile apps,websites,web developing,software developing,video editing,video,2d animation,logo designing,UI/UX,solutions,cfs,app developing">
+        <meta name="author" content="CFS Developers">
+
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://bycfs.com/">
+        <meta property="og:title" content="CFS Devs | The Solution Builder">
+        <meta property="og:description"
+            content="CFS helps you to find the best solutin for your problems.specialised in web developing,app developing,software developing,UI/UX designing 2d animations and logo designing">
+        <meta property="og:image" content="https://bycfs.com/Images/OGlogo.png">
+    
+        <meta property="twitter:card" content="CFS Devs | The Solution Builder">
+        <meta property="twitter:url" content="https://bycfs.com/">
+        <meta property="twitter:title" content="CFS Devs | The Solution Builder">
+        <meta property="twitter:description"
+            content="CFS helps you to find the best solutin for your problems.specialised in web developing,app developing,software developing,UI/UX designing 2d animations and logo designing">
+        <meta property="twitter:image" content="https://bycfs.com/Images/OGlogo.png">
+
+
+
+
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        
+        <link rel="stylesheet" href="./CSS/index.css">
+        <script src="./JS/navbar.js"></script>
+       <script src="./JS/object.js"></script>
+       <!-- <script src="./JS/hover.js"></script> -->
+       <script src="./JS/cookienew.js"></script>
+       
+        <script src="./JS/loader.js"></script>
+    </head>
+
+
+<body id="body" class="body" oncontextmenu="return false;">
+<!----------------------------------------------------- PRE LOADER -------------------------------------------->
+
+
+<div class="loader">
+    <div class="loaderIn">
+        <svg width="512" height="769" viewBox="0 0 512 769" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="leftsvg" d="M242.061 4V150.941L87.1829 293.242L242.061 432.449V579.39L2 367.486V214.358L242.061 4Z" stroke="white" stroke-width="15"/>
+            <path id="rightsvg" d="M510 398.421L274.585 192.703V327.27L427.915 477.305L274.585 614.965V765L510 554.642V398.421Z" stroke="white" stroke-width="15"/>
+        </svg>            
+    </div>
+</div>
+
+
+
+
+
+<div class="containerAll">
+
+        <!----------------------------------------------------- COOKIE -------------------------------------------->
+
+        <div class="cookie">
+                <div class="cookieIn">
+                    <img src="./Images/cookie.png" alt="">
+                   <h1>Have a cookie :)</h1> 
+                    <p> We collect cookies to enchance your browsing experience !</p>
+                    <button class="accept" >Accept</button> <button class="cancel" >Reject</button>
+                </div>
+        </div>
+
+
+
+
+        <div class="home">
+
+            <div class="navbar">
+                <div class="logo">
+                   <a href="./index.html" > <img src="./Images/logo.png" alt=""></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="mailto:senarathnacn@gmail.com"><button>Contact</button> </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mobNav" id="mobnav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href=""><button>Contact</button></a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="burgerMenu" id="burger" onclick="menu();">
+                <div class="barOne" id="barOne"></div>
+                <div class="barTwo" id="barTwo"></div>
+                <div class="barThree" id="barThree"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="homeSec">
+                <div class="headlines">
+                    <div class="headlinesIn">
+                        <div class="company">
+                            <h1>CODE <span>for</span></h1>
+                            <h1>   SUCCESS</h1>
+                        </div>
+                        <div class="theme">
+                           <p> We build things what clients<br> make happy</p>
+                        </div>
+                        <div class="button">
+                           <a href="#services"><button>Services</button></a> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="mainobject">
+
+
+                    <div class="wholeObject">
+                        
+                    <h1 id="tag"></h1>
+                    <!------------------------------------- CUBES ------------------------------->
+
+                         <div class="cube1" id="cube1" >
+                            <div class="top"></div>
+                            <div>
+                                <span style="--i:0;"></span>
+                                <span style="--i:1;"></span>
+                                <span style="--i:2;"></span>
+                                <span style="--i:3;"></span>
+                            </div>
+                            <div class="bottom"></div>
+                        </div> 
+
+                         <div class="cube1" id="cube2" >
+                            <div class="top"></div>
+                            <div>
+                                <span style="--i:0;"></span>
+                                <span style="--i:1;"></span>
+                                <span style="--i:2;"></span>
+                                <span style="--i:3;"></span>
+                            </div>
+                            <div class="bottom"></div>
+                        </div> 
+
+                         <div class="cube1" id="cube3" >
+                            <div class="top"></div>
+                            <div>
+                                <span style="--i:0;"></span>
+                                <span style="--i:1;"></span>
+                                <span style="--i:2;"></span>
+                                <span style="--i:3;"></span>
+                            </div>
+                            <div class="bottom"></div>
+                        </div> 
+
+
+
+                    <!------------------------------------- CUBES END------------------------------->
+
+                        
+                    <svg id="one" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 983.28 1053.37"><defs><style>.cls-1,.cls-2,.cls-3,.cls-4{stroke:#fff;stroke-miterlimit:10;stroke-width:5px;}.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:url(#linear-gradient-3);}.cls-4{fill:url(#linear-gradient-4);}</style><linearGradient id="linear-gradient" x1="281.66" y1="325.69" x2="980.78" y2="325.69" gradientUnits="userSpaceOnUse"><stop offset="0.05" stop-color="#4a00aa"/><stop offset="0.24" stop-color="#5305b2"/><stop offset="0.55" stop-color="#6d13c8"/><stop offset="0.94" stop-color="#9629ec"/><stop offset="1" stop-color="#9d2df2"/></linearGradient><linearGradient id="linear-gradient-2" x1="2.5" y1="768.7" x2="702.31" y2="768.7" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6a41f8"/><stop offset="0.28" stop-color="#733df7"/><stop offset="0.75" stop-color="#8d33f4"/><stop offset="0.99" stop-color="#9d2df2"/></linearGradient><linearGradient id="linear-gradient-3" x1="701.81" y1="929.21" x2="841.16" y2="929.21" xlink:href="#linear-gradient-2"/><linearGradient id="linear-gradient-4" y1="446.59" x2="980.78" y2="446.59" xlink:href="#linear-gradient-2"/></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M980.78,83.6V245L421.61,567.79,281.66,487Q631.22,285.27,980.78,83.6Z"/><polygon class="cls-2" points="702.31 890.93 701.81 1048.67 698.56 1050.5 561.14 971.17 142.05 729.19 92.03 700.32 2.5 648.62 2.5 486.9 57.29 518.51 142.11 567.48 282.11 648.31 701.2 890.3 702.31 890.93"/><path class="cls-3" d="M841.09,970l-.89.49-138.39,78.14.5-157.74,0-1.29,138.39-79.89.43.25C841.17,861,841.15,921,841.09,970Z"/><path class="cls-4" d="M980.78,83.6Q631.22,285.26,281.66,487l140,80.81L702.82,730.13l137.9,79.62L702.33,889.64l-1.13.66-419.09-242-140-80.83-84.82-49L2.5,486.9v-.58q21.93-12.61,43.83-25.25Q94,433.61,141.68,406.14q350-201.6,700-403.25L980.78,83.21Z"/></g></g></svg>
+                    
+                    <svg id="two" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 983.28 1053.37"><defs><style>.cls-1,.cls-2,.cls-3,.cls-4{stroke:#fff;stroke-miterlimit:10;stroke-width:5px;}.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:url(#linear-gradient-3);}.cls-4{fill:url(#linear-gradient-4);}</style><linearGradient id="linear-gradient" x1="2.5" y1="727.68" x2="701.62" y2="727.68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9d2df2"/><stop offset="1" stop-color="#4a00aa"/></linearGradient><linearGradient id="linear-gradient-2" x1="280.97" y1="284.68" x2="980.78" y2="284.68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6a41f8"/><stop offset="0.28" stop-color="#733df7"/><stop offset="0.75" stop-color="#8d33f4"/><stop offset="0.99" stop-color="#9d2df2"/></linearGradient><linearGradient id="linear-gradient-3" x1="142.12" y1="124.17" x2="281.47" y2="124.17" xlink:href="#linear-gradient-2"/><linearGradient id="linear-gradient-4" x1="2.5" y1="606.78" x2="980.78" y2="606.78" xlink:href="#linear-gradient-2"/></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M701.62,566.4Q352.06,768.11,2.5,969.78V808.42L561.67,485.59Z"/><polygon class="cls-2" points="980.78 404.76 980.78 566.48 925.99 534.86 841.17 485.9 701.17 405.06 282.08 163.08 280.97 162.44 281.47 4.71 284.72 2.88 422.14 82.21 841.23 324.19 891.25 353.05 980.78 404.76"/><path class="cls-3" d="M281.47,4.71,281,162.44l0,1.3L142.56,243.63l-.43-.25c0-51,0-110.95.06-160l.89-.5Z"/><path class="cls-4" d="M980.78,566.48v.58L937,592.3,841.6,647.23q-350,201.62-700,403.26L2.5,970.17v-.39Q352.06,768.11,701.62,566.4l-140-80.81L280.46,323.25l-137.9-79.62L281,163.74l1.13-.66,419.09,242,140,80.84,84.82,49Z"/></g></g></svg>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <!-- who we are -->
+
+        <div class="who" id="parallax">
+            <div class="whoIn">
+                <h1>Who We Are</h1>
+                <p>CFS is an IT company based in Sri Lanka that has been offering web design and digital marketing services to all types of businesses all around the world. We feel that the reason we have reached the standards we have now is because we have always prioritized our clients' needs above everything else. Our staff will keep in touch with you on a regular basis from the start of the project until it is completed, ensuring that you receive the results you expect. We are excited about the chance to collaborate with you.</p>
+            </div>
+        </div>
+
+
+        <!-- what we do -->
+
+        <div class="what" id="services">
+            <div class="parallaxser" id="parallax">
+                <div class="whatHead">
+                    <h1>What we do</h1>
+                </div>
+                <div class="whatCard">
+                    <div class="whatCardIn">
+
+                        <div class="col1">
+
+                            <div class="card" onmouseover="webobj();" onmouseout="webobjOut();">
+                                <div class="cardIn">
+                                    <h2>Web Development</h2>
+                                    <div class="img"><img
+                                            src="./Images/icons8-code-100.png"
+                                            alt=""></div>
+                                    <p>Simply put, we build websites, but there’s much more to it than that. </p>
+                                    <a href="#">Discover More</a>
+                                </div>
+                            </div>
+
+                            <div class="card" onmouseover="videoobj();" onmouseout="videoobjOut();">
+                                <div class="cardIn">
+                                    <h2>Video editing and
+                                        2D Animation</h2>
+                                    <div class="img"><img
+                                            src="./Images/icons8-video-editing-100.png"
+                                            alt=""></div>
+                                    <p>We use creative and technical skills to assemble recorded raw material into a finished product.</p>
+                                    <a href="#">Discover More</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col2">
+                            <h1 id="obj"><&nbsp;&nbsp;></h1>
+                                <div class="line">
+
+                                </div>
+                            </div>
+
+                            <div class="col3">
+                                <div class="card" onmouseover="logoobj();" onmouseout="logoobjOut();">
+                                    <div class="cardIn">
+                                        <h2>Logo Design</h2>
+                                        <div class="img"><img
+                                                src="./Images/icons8-design-100.png"
+                                                alt="" width="100px"></div>
+                                        <p>Our team members do more than simply sketch random ideas based on the latest branding trends.  </p>
+                                        <a href="#">Discover More</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="card" onmouseover="appobj();" onmouseout="appobjOut();">
+                                    <div class="cardIn">
+                                        <h2>App development</h2>
+                                        <div class="img"><img
+                                                src="./Images/icons8-android-studio-100.png"
+                                                alt=""></div>
+                                        <p>We combine our coding expertise and visual creativity with the latest app development trends</p>
+                                        <a href="#">Discover More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- work -->
+
+            <div class="work">
+
+            </div>
+
+
+            <!-- quote -->
+
+            <div class="quote" >
+                <div class="quoteIn">
+
+                    <div class="two" id="parallax">
+                        <h1><span>"</span>&nbsp;Your satisfaction is 
+                            our satisfaction&nbsp;<span>"</span></h1>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- why us-->
+
+            <div class="why" id="parallax">
+                <div class="whyIn">
+                    <h1 id="whyh1">Why Us</h1>
+
+                    <div class="whycard">
+
+                        <div class="cardOne">
+                            <div class="whyHead"><h1>01</h1></div>
+                            <p>According to your business needs, we transform your ideas into products and build software solutions that help expand your business.</p>
+                        </div>
+
+                        <div class="cardOne">
+                            <div class="whyHead"><h1>02.</h1></div>
+                            <p>Our staff specializes in software system maintenance and upgrades, as well as the design and development of web and mobile applications.</p>
+                        </div>
+
+
+                        <div class="cardOne">
+                            <div class="whyHead"><h1>03.</h1></div>
+                            <p>We reliably deliver solutions requiring speed, scale, complexity, security, and innovation to ensure that your goals are being met through the website.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="footerOut">
+                <div class="footer">
+                    <div class="footerIn">
+                        <div class="sec1"><img src="./Images/logo.png" alt=""></div>
+                        <div class="sec2">
+                            <h2>Explore</h2>
+                            <a href="">Portfolio</a>
+                            <a href="">Services</a>
+                        </div>
+                        <div class="sec3">
+                            <h2>Reach us through</h2>
+                            <a href="https://www.facebook.com/profile.php?id=100088491973525" target="new"><i class="fa fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/company/89881316" target="new"><i class="fa fa-linkedin"></i></a>
+                            <a href="mailto:senarathnacn@gmail.com"><i class="fa
+                                    fa-envelope"></i></a>
+                            <a href="tel:+94763518862"><i class="fa fa-phone"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <p id="copy">2022 CFS | All Rights Reserved</p>
+            </div>
+
+
+	<!-------------------------------------------------------------SCROLL TO TOP---------------------------------------------------------------------->
+	<div class="scrollTop" onClick="scrollToTop();">TOP</div>
+	<script type="text/javascript">
+		window.addEventListener('scroll', function() {
+			var scroll = document.querySelector('.scrollTop');
+			scroll.classList.toggle("active", window.scrollY > 500)
+		})
+
+		function scrollToTop() {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			})
+		}
+	</script>
+	<!-------------------------------------------------------------SCROLL TO TOP END---------------------------------------------------------------------->
+
+
+
+              <!-- word path stroke length 
+              <script>
+                var logo=document.querySelectorAll("#one path");
+
+                for(let i=0;i<logo.length;i++){
+                    console.log(`${i} ${logo[i].getTotalLength()}`);
+                }
+              </script>-->
+              
+              
+<!----------------------------------- scroll animation ------------------------------->
+            <script>
+                
+                const parallax = document.querySelectorAll('#parallax');
+            
+                
+                const observer = new IntersectionObserver(
+                    entries => {
+
+            
+                    entries.forEach(entry => {
+                
+                // entry.target.classList.toggle('go',entry.isIntersecting)
+                    if(entry.isIntersecting) {
+
+                    
+                        entry.target.classList.toggle('go');
+                        
+                    }
+                    else{
+                        entry.target.classList.remove('go');
+                    
+                    }
+                    
+                })
+            
+            //console.log(entries);
+
+
+                    }
+                )
+                parallax.forEach(parallaxs => {
+                    observer.observe(parallaxs);
+                })
+
+            </script>
+              
+          <!------------------------------------------------- Card hover ------------------------------------------------>
+          <script>
+
+           
+
+            function webobj(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='15%';
+            }
+            function webobjOut(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='0%';
+            }
+
+
+            function videoobj(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='60%';
+            }
+            function videoobjOut(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='0%';
+            }
+
+
+            function logoobj(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='30%';
+            }
+            function logoobjOut(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='0%';
+            }
+
+
+            function appobj(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='75%';
+            }
+            function appobjOut(){
+                var obj=document.getElementById('obj');
+
+                obj.style.top='0%';
+            }
+
+
+          </script>
+
+
+<script>
+$( ".cancel" ).click(function() {
+    $(".cookie").removeClass('active')
+   
+  });
+
+  $( ".accept" ).click(function() {
+    $(".cookie").removeClass('active')
+   
+    localStorage.setItem("cookieAccepted","yes")
+
+  });
+
+</script>
+              
+              <!-- Start of Async Drift Code -->
+                        <script>
+                        "use strict";
+                        
+                        !function() {
+                          var t = window.driftt = window.drift = window.driftt || [];
+                          if (!t.init) {
+                            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+                            t.factory = function(e) {
+                              return function() {
+                                var n = Array.prototype.slice.call(arguments);
+                                return n.unshift(e), t.push(n), t;
+                              };
+                            }, t.methods.forEach(function(e) {
+                              t[e] = t.factory(e);
+                            }), t.load = function(t) {
+                              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                              var i = document.getElementsByTagName("script")[0];
+                              i.parentNode.insertBefore(o, i);
+                            };
+                          }
+                        }();
+                        drift.SNIPPET_VERSION = '0.3.1';
+                        drift.load('ufkzsvk9inz8');
+                        </script>
+            <!-- End of Async Drift Code -->
+        </div>
+        </body>
+    </html>
